@@ -18,6 +18,11 @@ module.exports = {
       '@assets': path.resolve(__dirname, 'src/assets/'),
       '@styles': path.resolve(__dirname, 'src/styles/'),
       '@config': path.resolve(__dirname, 'src/config/'),
+      '@hooks': path.resolve(__dirname, 'src/hooks/'),
+      '@querys': path.resolve(__dirname, 'src/querys/'),
+      '@containers': path.resolve(__dirname, 'src/containers/'),
+      '@pages': path.resolve(__dirname, 'src/pages/'),
+      '@utils': path.resolve(__dirname, 'src/utils/'),
     }
   },
   module: {

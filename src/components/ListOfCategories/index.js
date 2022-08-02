@@ -37,7 +37,7 @@ export const ListOfCategories = () => {
     const renderCategories = (scroll = false) => (
         <List fixed={scroll}>
             {
-                categories.map(category => <Item key={category.id}> <Category  {...category} /> </Item>)
+                categories.map(category => <Item key={category.id}> <Category  {...category} path={`/pet/${category.id}`}/> </Item>)
             }
         </List>
     )

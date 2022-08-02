@@ -26,15 +26,4 @@ const Img = styled.img`
     width: 100%;
 `
 
-const Button = styled.button`
-    display: flex; 
-    align-items: center;
-    padding-top: 8px;    
-    border: none;
-    background: transparent;
-    & svg {
-        margin-right: 4px;
-    }
-`
-
-export {ImgWrapper, Img, Button, PhotoCardContainer}
+export {ImgWrapper, Img, PhotoCardContainer}
